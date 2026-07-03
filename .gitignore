@@ -1,0 +1,41 @@
+# Local dataset and generated model artifacts
+# These stay on disk for notebooks/scripts, but are not committed.
+
+# Common dataset folders
+**/dataset/
+**/datasets/
+
+# Large/sourced dataset folders with nonstandard names
+Cats and Dogs/dataset/
+Chatbot/dataset/
+MallCustomer_KMeans/dataset/
+Module Assessments/cats_dogs/
+Module Assessments/datasets/
+Module Assessments/english-french/
+Sentiment Analysis/dataset/
+Weather Forecast/dataset/
+Yahoo Answers/dataset/
+
+# Dataset archives and tabular data
+*.csv
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Generated model / preprocessed data artifacts
+*.npz
+*.keras
+*.h5
+*.pickle
+*.pkl
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# IDE/project-local metadata
+.idea/
+
+# Local archive exports
+*.rar

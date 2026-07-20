@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alien-ai-lab"
+version = "0.1.0"
+description = "A learning project for an Alien: Isolation-inspired AI architecture"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2,<3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

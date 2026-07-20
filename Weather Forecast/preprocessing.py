@@ -13,8 +13,8 @@ def plotData(data: pd.DataFrame, x, y, plotType = ''):
         plt.show()
 def readCleanData(filename):
     df = pd.read_csv(filename)
-    #print(df.head())
-    #print(df.tail())
+    print(df.head())
+    print(df.tail())
     print(df.shape)
     print(df.describe())
     df.drop_duplicates(inplace=True)
